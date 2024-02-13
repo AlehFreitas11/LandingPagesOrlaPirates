@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+  <header class="Cabecalho"> 
+    <nav class="navbar navbar-expand-lg bg-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="Orlando_Pirates_FC.png" width="70vw"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hotéis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pacotes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Passagens
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Passagens</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar Destino..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Paisagem1.jpg" class="d-block w-100"alt="Canada">
+          </div>
+          <div class="carousel-item">
+            <img src="Londres.jpg" class="d-block w-100" alt="Guaramiranga">
+          </div>
+          <div class="carousel-item">
+            <img src="paisagem2.jpg" class="d-block w-100" alt="Guaramiranga">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div class="PromocoesCards">
+
+            <div class="card" style="width: 18rem;">
+                <img src="Salvador.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SALVADOR - BA</h5>
+                  <p class="card-text">Seja como destino único da sua viagem ou como ponto de partida para outra praia na Bahia, Salvador tem atrações para ocupar com brilho todo o seu tempo na cidade..</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="Sergipe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sergipe</h5>
+                  <p class="card-text">Sergipe, o estado mais pequeno do Brasil, situa-se na costa atlântica da região do nordeste. A capital, Aracaju, é conhecida pelas praias, tal como a Praia da Atalaia, com o seu longo passeio</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="Canoa Quebrada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Canoa Quebrada</h5>
+                  <p class="card-text">Desde 2004 o Portal Canoa Quebrada mantém como principal objetivo estimular tanto empreendedores como visitantes.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+             </div>
+      
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
